@@ -1,0 +1,24 @@
+--------------------------
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |bK|  |  |  |  |
+|  |  |wP|  |wP|  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+--------------------------
+
+Move: Normal moves
+9CheckerMove{startRow=3, startCol=3, endRow=0, endCol=0}
+9CheckerMove{startRow=3, startCol=3, endRow=0, endCol=6}
+9CheckerMove{startRow=3, startCol=3, endRow=1, endCol=1}
+9CheckerMove{startRow=3, startCol=3, endRow=1, endCol=5}
+9CheckerMove{startRow=3, startCol=3, endRow=2, endCol=2}
+9CheckerMove{startRow=3, startCol=3, endRow=2, endCol=4}
+Move: Jump moves
+9CheckerMove{startRow=3, startCol=3, endRow=5, endCol=1}
+9CheckerMove{startRow=3, startCol=3, endRow=5, endCol=5}
+9CheckerMove{startRow=3, startCol=3, endRow=6, endCol=0}
+9CheckerMove{startRow=3, startCol=3, endRow=6, endCol=6}
+9CheckerMove{startRow=3, startCol=3, endRow=7, endCol=7}

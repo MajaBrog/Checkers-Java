@@ -1,0 +1,51 @@
+
+#table {
+    -fx-background-image: url("./table.jpg");
+
+}
+.check-box {
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+.board{
+    -fx-background-image: url('./board.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:cover;
+    -fx-border-color: #d4d4d4;
+    -fx-border-width: 5;
+}
+
+.button{
+    -fx-background-color:
+            linear-gradient(#f7f7f7, #e7e7e7);
+    -fx-background-radius: 50%,50%;
+    -fx-text-fill: white;
+
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(rgba(100, 119, 137, 0.9), rgba(49, 49, 49, 0.99));
+    -fx-font-size: 12px;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+.button:pressed{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.8), 20, 0, 0, 0);
+}
+
+
+.label{
+    -fx-background-color: white;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+    -fx-border-color: #515151;
+    -fx-border-width: 3;
+    -fx-text-fill: #000000;
+}
+
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-29T13:19:07" hostname="DESKTOP-A826S38" time="0.021">
+  <properties/>
+  <testcase name="testGetPossibleMovesForBlackKing" classname="BoardTestSuite" time="0.021"/>
+  <system-out><![CDATA[--------------------------
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |bK|  |  |  |  |
+|  |  |wP|  |wP|  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+--------------------------
+
+Move: Normal moves
+CheckerMove{startRow=3, startCol=3, endRow=0, endCol=0}
+CheckerMove{startRow=3, startCol=3, endRow=0, endCol=6}
+CheckerMove{startRow=3, startCol=3, endRow=1, endCol=1}
+CheckerMove{startRow=3, startCol=3, endRow=1, endCol=5}
+CheckerMove{startRow=3, startCol=3, endRow=2, endCol=2}
+CheckerMove{startRow=3, startCol=3, endRow=2, endCol=4}
+Move: Jump moves
+CheckerMove{startRow=3, startCol=3, endRow=5, endCol=1}
+CheckerMove{startRow=3, startCol=3, endRow=5, endCol=5}
+CheckerMove{startRow=3, startCol=3, endRow=6, endCol=0}
+CheckerMove{startRow=3, startCol=3, endRow=6, endCol=6}
+CheckerMove{startRow=3, startCol=3, endRow=7, endCol=7}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
